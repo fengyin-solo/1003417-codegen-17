@@ -83,7 +83,7 @@ import type { EntryRow } from '@/data/types'
 
 const meta = moduleMeta('drill')
 const columns = ["演练编号", "演练主题", "参演队伍", "演练日期", "参演人数", "使用装备", "演练评价", "演练状态"]
-const actions = ["开始筹备", "完成演练", "提交总结"]
+const actions = ["开始筹备", "完成演练", "提交总结", "归档演练"]
 const statuses = ["待筹备", "筹备中", "已实施", "已总结", "已归档"]
 const stats = [{"label": "年度演练次数", "value": 0}, {"label": "待演练计划", "value": 0}, {"label": "已总结场次", "value": 0}]
 
